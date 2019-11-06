@@ -23,5 +23,10 @@
     <Folder Include="Services\App\" />
     <Folder Include="Services\Database\" />
     <Folder Include="Services\Security\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Error\" />
+    <Folder Include="Views\Membership\" />
+    <Folder Include="Views\Role\" />
+    <Folder Include="Views\LoggedInShared\" />
   </ItemGroup>
 </Project>

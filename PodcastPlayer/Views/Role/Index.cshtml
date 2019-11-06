@@ -1,0 +1,61 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "Role";
+}
+
+<!-- Content Start -->
+<div class="content-wrapper">
+    <!-- Heading Start -->
+    <section class="heading">
+        <h1 class="mb-2">@ViewData["Title"]</h1>
+        <div class="titles">
+            <p></p>
+        </div>
+    </section><!-- Heading End -->
+    <div class="row">
+        <div class="col-12">
+            <article class="card mb-4">
+                <div class="card-body">
+                    <h4 class="card-title mb-4">List of role</h4>
+                    <div class="table-responsive">
+                        <table id="grid" class="table table-striped" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th width="100%">Role Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <label class="badge badge-success">@item</label>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</div>
+<!-- Content End -->
+
+@section Styles{
+   
+}
+
+@section Scripts{
+   
+    <script type="text/javascript">
+        $(document).ready(function () {
+          
+        });
+    </script>
+}
+
+
