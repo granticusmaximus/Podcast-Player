@@ -1,5 +1,5 @@
-# Podcast-Player
-A podcast web app built with C#
+# Podcast Player
+_A podcast web app built with C#_
 
 I have a separate document that will cover a more in depth approach at what the application can do. This **README** file is
 strictly a basic, and informative solution to get the application up and running in your environment.
